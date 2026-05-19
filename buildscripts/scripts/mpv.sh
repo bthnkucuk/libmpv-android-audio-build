@@ -22,6 +22,8 @@ PKG_CONFIG="pkg-config --static" \
 	--disable-libplacebo \
 	--disable-lua \
 	--disable-iconv \
+	--disable-libass \
+	--disable-libass-osd \
 	--enable-libmpv-shared \
 	--disable-manpage-build \
 	-o "`pwd`/_build$ndk_suffix"
