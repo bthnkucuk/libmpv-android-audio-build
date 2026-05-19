@@ -2,11 +2,11 @@
 
 # --------------------------------------------------
 
-if [ ! -f "deps" ]; then
-  sudo rm -r deps
+if [ -d "deps" ]; then
+  sudo rm -rf deps
 fi
-if [ ! -f "prefix" ]; then
-  sudo rm -r prefix
+if [ -d "prefix" ]; then
+  sudo rm -rf prefix
 fi
 
 ./download.sh
