@@ -8,7 +8,7 @@ v_sdk_build_tools=35.0.0
 
 v_mbedtls=3.6.1
 v_libxml2=2.10.3
-v_ffmpeg=7.1
+v_ffmpeg=7.1.4
 v_mpv=0.40.0
 
 ## Dependency tree
